@@ -1,0 +1,428 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+}
+#navbar{
+	background-color: #FFFFFF;
+	color:black;
+	height: 71px;	
+	border-bottom: 5px solid #ca3438;
+}
+.container{
+	margin:0 auto;
+	width: 996px;
+}
+navbar>.container{
+	height: 81px;
+}
+a#logo{
+	width: 229px;
+	height: 47px;
+	display: block;
+	float: left;
+	text-indent: -1987em;
+	background: url(../image/sprite.png) no-repeat -20px -473px scroll;
+	margin-top: 12px;
+}
+#search{
+	float: right;
+	margin-top: 40px;
+	padding: 0 12px;
+}
+#search>a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../image/sprite.png) no-repeat scroll -20px -20px;
+
+}
+/*------------------------menu-----------------*/
+#menu{
+	float: right;
+	margin-left: 20px;
+	margin-top: 39px;
+	z-index: 1000;
+}
+#menu ul{
+	list-style: none;
+	text-align: center;
+	/*position: relative;*/
+	/*float: left;*/
+}
+#menu ul li{
+	/*display: block;*/
+	float: left;
+	position: relative;
+	font-family: Arial, sans-serif;
+	background-color: #FFFFFF;
+}
+#menu>ul>li{
+	border-right: 1px solid black;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	color: black;
+	float: left;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+#menu ul li a:hover,a:focus{
+	background-color: silver;
+}
+
+#menu ul li .sub-menu{
+	display: none;
+	position: absolute;
+	top:0;
+	left: 100%;
+	/*padding-top: 26px;*/
+}
+
+#menu> ul>li>.sub-menu{
+	top: 100%;
+	left:0;
+	padding-top: 23px;
+}
+#menu> ul>li>.sub-menu>li:first-child{
+	border-top: 5px solid orange;
+}
+#menu> ul>li>.sub-menu li a{
+	width: 200px;
+	float: left;
+	border-bottom: 1px solid #ca3438;
+	padding: 6px 0;
+}
+#menu ul li:hover > .sub-menu{
+	display: block;
+}
+
+#menu>ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*banner*/
+#banner img{
+	height: 254px;
+}
+#banner{
+	padding-top: 5px;
+}
+/*education*/
+#education>.container{
+	width: 996px;
+	height: 100%;
+}
+#education{
+	background-color: #CA3438;
+	height: 338px;
+	color: white;
+	padding: 20px 0;
+}
+
+
+
+#dangkyhoc{
+	width: 212px;
+	margin-right: 26px;
+	border: 1px dashed #fff;
+	padding: 14px 10px 12px 10px;
+	float: left; 
+	height: 308px;
+}
+
+#dangkyhoc input{
+	float: left;
+}
+.title{
+	height: 51px;		
+}
+.line{	
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom: 1px dashed #d45b5f;
+	padding-bottom: 10px;
+}
+
+input,select,textarea{
+	width: 210px;
+	height: 25px;
+	margin-bottom: 9px;
+	text-indent: 0.4em;
+	background-color: #DB777A;
+	border:none;
+}
+option{
+	background-color: #fff;
+}
+textarea{
+	height: 42px;
+	resize: none;
+}
+#button{
+	height: 34px;
+	background-color: #FAA724;
+}
+
+#chuongtrinh{
+	border: 1px dashed #fff;
+	height: 308px;
+	width: 714px;
+	float: left;
+	padding: 14px 10px 12px 10px;
+}
+.clear{
+	clear: both;
+}
+#title{
+	width: 100%; 
+	height: 49px;
+}
+#title h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #d45b5f;
+}
+#list > ul{
+	padding: 20px 0 5px 0;
+	list-style: none;
+}
+#list li{
+	float: left;
+	width: 156px;
+	height: 235px;
+	margin: 0 10px;
+}
+#list img{
+	width: 115px; height: 115px;
+	padding: 5px;
+	border-radius: 50%;
+	border: 1px dashed black;
+}
+#list h3{
+	font-size: 18px;
+	/*color: #fff;*/
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	display: block;
+	line-height: 30px;
+	margin-bottom: 6px;
+	height: 60px;
+}
+#list p{
+	font-size: 13px;
+}
+
+/*end education*/
+
+/* phan gioi thieu*/
+#intro{
+	margin-bottom: 10px;
+	padding: 47px 0 20px;
+}
+#gioithieu{
+	width: 656px;
+	float: left;
+}
+
+#image-intro{
+	width: 260px;
+	float: left;
+	margin: 0 47px 10px 0;
+}
+#image-intro img{
+	border-radius: 50%;
+	border: 4px solid #fff;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	
+}
+#loichao{
+	float: left;
+	width: 343px;
+}
+#loichao button{
+	float: right;
+	margin-top: 10px;
+	background-color: #c5450c;
+	border-radius: 4px;
+	padding: .3em;
+	border:none;
+}
+#loichao button:hover{
+	background-color: #FC5105;
+}
+
+
+/*khai giang*/
+#khaigiang{
+	height: 385px;
+	padding: 25px 0 15px;
+	background-color: #CA3438;
+}
+#lichkhaigiang{
+	width: 656px;
+	float: left;
+	padding: 24px 10px 14px 0px;
+}
+
+#khoahoc{
+	padding-top: 19px;
+}
+#khoahoc>ul>li{
+	list-style: none;
+	padding-bottom: 23px;
+}
+#khoahoc ul li ul li{
+	float: left;
+	padding-right: 20px;
+	list-style: none;
+	width: 308px;
+}
+.kh img{
+	float: left;
+	border-radius: 5px;
+	padding-right: 5px;
+}
+.content-kh{
+	padding: 0 10px;
+	margin-left: 45px;
+
+}
+.content-kh>p{
+	font-size: 12px;
+	padding: 0.2em 0;
+}
+#khoanganhan{
+	border:1px dashed #fff;
+	width: 290px;
+	float: left;
+	padding: 24px 0 14px 15px;
+}
+.left-kh{
+	list-style: none;
+	padding: 10px 6px;
+}
+.left-kh img{
+	float: left;
+	/*	padding-right: 20px;*/
+}
+
+/*tintuc*/
+#tintuc{
+	padding-top: 30px;
+}
+.news-left{
+	width: 600px;
+	float: left;
+}
+.news-right{
+	margin-left: 30px;
+	float: left;
+}
+.news-title{
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #D2D2D2;
+}
+.news-title p:first-child,#baiviet-title p:first-child{
+	font-size: 24px;
+}
+.news-title p:nth-child(2){
+	color:#6f6f6f;
+	font-size: 15px;
+}
+
+.baiviet{
+	padding: 25px 0;
+}
+#image-baiviet,#baiviet1{
+	float: left;
+	padding-right: 20px;
+}
+#image-baiviet img{
+	width: 260px;
+	height: 180px;
+}
+#baiviet-title p,.article p,footer{
+	font-size: .83em;
+}
+#bnt-baiviet{
+	margin-top: 30px;
+	float: right;
+	background-color: #c5450c;
+	border-radius: 4px;
+	padding: .3em;
+	border: none;
+
+}
+#bnt-baiviet:hover{
+	background-color: #FC5105;
+}
+#baiviet1 img,#baiviet2 img{
+	float: left;
+	margin-right: 8px;
+}
+#baiviet2 {
+    float: left;
+}
+.article p {
+    float: left;
+    width: 145px;
+}
+.article {
+    margin-top: 20px;
+}
+
+
+.date{
+	font-size: .83em;
+	color: #979797;
+}
+.news-td{
+	padding: 15px 0;
+}
+.congty-td{
+	padding: 10px 0;
+}
+.congty-td img{
+	width: 62px;
+	height: 62px;
+	border-radius: 5px;
+	float: left;
+}
+.congty{
+	float: left;
+}
+.congty p:nth-child(2){
+	color:#cf484c;
+	font-weight: bold;
+}
+.congty p{
+	font-size: .83em;
+}
+
+
+footer{
+	background-color: #A9A9A9;
+	height: 60px;
+}
+.l-footer{
+	float: left;
+	padding:15px 0;
+}
+.r-footer {
+    float: left;
+    padding: 25px 0 0 245px;
+}
