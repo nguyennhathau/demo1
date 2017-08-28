@@ -31,7 +31,6 @@ a#logo{
 #search{
 	float: right;
 	margin-top: 40px;
-	padding: 0 12px;
 }
 #search>a{
 	display: block;
@@ -42,7 +41,7 @@ a#logo{
 }
 /*------------------------menu-----------------*/
 #menu{
-	float: right;
+	float: left;
 	margin-left: 20px;
 	margin-top: 39px;
 	z-index: 1000;
