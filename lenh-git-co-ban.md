@@ -42,7 +42,8 @@ $ git status
 ## how to git commit a whole folder?
 
 >git add foldername
-git commit foldername -m "commit operation"
+----
+	git commit foldername -m "commit operation"
 
 
 
